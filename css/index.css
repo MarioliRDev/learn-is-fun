@@ -38,17 +38,25 @@ header {
 	box-shadow: 0 1px 5px var(--amarillo);
 	padding: 1rem .5rem;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-evenly;
 	gap: 1rem;
 }
 
-header > h1 {
-	align-self: flex-start;
-	font-size: 1.8rem;
+header > .top-container {
+	display: flex;
+	justify-content: space-between;
 }
 
-header > .icons {
+header > h1 {
+	align-self: center;
+	font-size: 1.8rem;
+	color: var(--negro);
+	text-shadow: 0 0 2px var(--negro);
+}
+
+header > div > .icons {
 	justify-self: flex-end;
 	}
 
@@ -81,8 +89,8 @@ article {
 
 svg {
 	fill: var(--negro);
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	margin: .3rem .9rem .3rem 0;
 	cursor: pointer;	
 	transition: scale ease .3s;
@@ -97,26 +105,49 @@ svg:hover {
 	margin: 1rem;
 	padding: 1rem;
 	box-shadow: 0 0 6px var(--naranja);
+	display: flex;
+	flex-direction: column;
+}
+
+.faster-buttons {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.faster-buttons .indice {
+	position: absolute;
+	left: 0;
+	font-size: 1.5rem;
+	display: block;
 }
 
 h2 {
 	font-size: 1.5rem;
+	color: var(--negro);
 	/*border-bottom: 3px solid var(--negro);*/
 	padding-bottom: 6px;
-	text-decoration: underline solid var(--blanco) 3px;
+	text-decoration: underline solid var(--negro) 3px;
+	text-shadow: 0 0 2 px var(--negro);
+	text-underline-offset: .5rem;
 }
 
 ul {
-	list-style: disc;
+	list-style: none;
 	padding: 6px 0 0 15px;
 }
 
 li {
 	font-size: 1.5rem;
-	padding: 6px;
-	margin-bottom: 12px;
-	background: var(--bordo);
+	padding: 9px;
+
+	margin-bottom: 18px;
+	background: var(--amarillo);
+	color: var(--negro);
 	border-radius: 6px;
+	text-shadow: 0 0 2px var(--negro);
 }
 
 .hide {
@@ -142,12 +173,8 @@ body.dark .fasters {
 	background: var(--rosa-dark);
 }
 
-body.dark .fasters h2 {
-	text-decoration-color: var(--negro);
-}
-
 body.dark .fasters ul li {
-	background: var(--bordo-dark);
+	background: var(--amarillo-dark);
 }
 
 body.dark img {
@@ -163,6 +190,14 @@ body.dark img {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
+	.logo {
+		width: 70px;
+	}
+
+	svg {
+		width: 60px;
+	}
+
 }
 
 @media screen and (min-width: 900px) {
@@ -172,5 +207,13 @@ body.dark img {
 
 	main {
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.logo {
+		width: 80px;
+	}
+
+	svg {
+		width: 70px;
 	}
 }

@@ -2,6 +2,7 @@
 	{
 		"nombre": "La revolución de la glucosa",
 		"autor": "Jessie Inchauspe",
+		"indice": 1,
 		"fasters": [
 			"Es difícil saber lo que ocurre dentro de un cuerpo humano. Si nuestros sentimientos tuvieran voz, podríamos tener la oportunidad de explicarlos.",
 			"Los seres humanos consumimos glucosa igual que las plantas, con una pequeña diferencia: no podemos sintetizarla a partir de agua pura.",
@@ -11,6 +12,352 @@
 			"Un desayuno azucarado es un boleto para una montaña rusa de glucosa.",
 			"El vinagre no es una excusa para tomar más azúcar. Es una adicion útil a tu rutina diaria cuando no puedas sustituir los carbohidratos por proteínas o fibra.",
 			"Si renunciamos a los refrigerios, los órganos internos tendrán más tiempo para reparar sus células perdidas y hacer una limpieza general de los sistemas."
+		]
+	},
+	{
+		"nombre": "Higuiene Mental",
+		"autor": "Juan Carlos Lorenzo",
+		"indice": 2,
+		"fasters": [
+			"Cuida tu higuiene mental tanto como cuidas tu higuiene física. No se trata de lavarse solo los dientes o vertirse bien sino tambien de alimentar pensamientos positivos y mantener una buena relación contigo mismo.",
+			"Es vital recordar que no es el error lo que cuenta, sino como reaccionamos a el y crecemos a partir de el. Ser tu propio abogado y no tu juez te permite avanzar hacia un autoconcepto más sano y equilibrado.",
+			"Lo que ves en el espejo es solo una parte de quien eres. La verdadera belleza radica en tu actitud, confianza y en como te sientes contigo mismo, mas alla de los estandares externos.",
+			"La belleza es una actitud. Si te sientes guapo o guapa, lo eres y eso transmitiras a los demas.",
+			"El mundo no te debe ningun reconocimiento. Quererte y autoelegirte es algo que depende completamente de ti, y es una necesidad vital para la salud mental.",
+			"La vida ya de por si puede llegar a ser cruel como para que seas duro contigo mismo. Aprende a recompensarte por tus esfuerzos y haz de apreciarte a ti mismo un hábito.",
+			"Recuerda, la autoeficacia es como un musculo, necesita ejercitarse.",
+			"Nadie puede hacerte sentir inferior sin tu concentimiento."
+		]
+	},
+	{
+		"nombre": "Focus",
+		"autor": "Daniel Goleman",
+		"indice": 3,
+		"fasters": [
+			"Lo bien que prestes atención determinará el exito que tendrás en una determinada tarea.",
+			"Lo que más nos distrae no es el ruido de la gente que nos rodea, sino el de nuestra propia mente. La concentración total exige que se acallen esas voces internas. Empieza a restar 7 sucesivamente desde cien y, si mantienes la concentración en la tarea, el ruido desaparecerá.",
+			"La atención te conecta con el mundo y define el tipo de experiencia que obtienes con cada interacción.",
+			"Muchas veces, lo que necesitamos para mantener nuestra atención es un flujo de atención que solo puede obtenerse mientras haces las cosas que te gustan.",
+			"Sin embargo, en medio del caos y la distracción de la vida laboral, escuchar mal se ha convertido en una epidemia.",
+			"Conocerte a ti mismo es la clave para autogestionarte.",
+			"Muchas cosas luchan constantemente por tu atención, pero no todas las merecen. Elige las cosas relevantes y limítate a ellas.",
+			"La capacidad de entender las señales emocionales que otros dejan entrever es el máximo nivel de la empatía cognitiva.",
+			"La diferencia entre un desempeño mediocre y una gran actuación es el nivel de atención que prestas al practicar.",
+			"Los grandes líderes no se conforman con los sistemas solo porque los conocieron así, sino que realizan cambios que son beneficiosos para el resto.",
+			"Soñar despierto incentiva el descubrimiento creativo."
+		]
+	},
+	{
+		"nombre": "El poder del ahora",
+		"autor": "Eckhart Tolle",
+		"indice": 4,
+		"fasters": [
+			"Nada ha ocurrido en el pasado: ocurrió en el Ahora. Nada ocurrirá en el futuro: ocurrirá en el Ahora.",
+			"El primer paso hacia una vida pacífica y mejor es vivir en el presente.",
+			"El dolor proviene de resistirse a situaciones que no puedes cambiar.",
+			"Si el cuerpo-dolor se convierte en tu identidad, sientes más dolor para mantener la identidad.",
+			"Puedes matar a tu cuerpo-dolor eligiendo un curso de acción diferente cuando te sientas acarreado a sentir dolor.",
+			"El ego actúa contra tus propios intereses porque su supervivencia depende de tu tristeza.",
+			"El ego es difícil de detectar cuando actúa.",
+			"Los recuerdos pesarosos y la ansiedad por el futuro proceden de la mente y causan dolor.",
+			"Puedes liberarte del dolor y el ego centrándote en tu cuerpo.",
+			"El cuerpo te ayuda a centrarte en las cosas que realmente importan. La iluminación proviene de ser uno con tu cuerpo.",
+			"Observar tu mente es preguntarte cuál sería tu siguiente pensamiento.",
+			"Observa sin juzgar, reconociendo los consejos de tu mente pero ignorándolos.",
+			"Escucha tu cuerpo y sigue su impulso, porque sabe lo que es mejor para ti.",
+			"La espera activa te mantiene en un estado de anticipación de un acontecimiento relevante. Esta anticipación te obliga a estar en el momento presente y no en el pasado o en el futuro.",
+			"Estar en estado de espera activa puede conducir a una buena vida.",
+			"La paz interior que proviene de vivir en el presente te permitirá desarrollar una buena capacidad de escucha.",
+			"Observar las acciones de tu pareja sin juzgarlas mejorará la relación.",
+			"Es natural experimentar sentimientos de tristeza.",
+			"La aceptación es la clave para afrontar el dolor inevitable.",
+			"Cuando vives en el presente, atraviesas un proceso interior de sensibilidad y perspicacia. Puede ayudarte a ser activo y excelente.",
+			"En lugar de ver problemas, verás situaciones individuales y manejables que podrás resolver una tras otra."
+		]
+	},
+	{
+		"nombre": "El poder de la disciplina",
+		"autor": "Daniel Walter",
+		"indice": 5,
+		"fasters": [
+			"La disciplina consiste en hacer las cosas que tenemos que hacer aunque no nos motiven.",
+			"Tu nivel de concentración influirá en tu grado de autodisciplina.",
+			"Sé paciente contigo mismo en tu camino hacia la autodisciplina. Requiere tiempo y trabajo duro.",
+			"No dejes de esforzarte para alcanzar tus objetivos. En lugar de ello, entrénate para encontrar placer en el proceso.",
+			"El cansancio no significa que no puedas lograr tus objetivos o que estés fracasando: solo significa que necesitas descansar.",
+			"Al esforzarte por ser disciplinado, recuerda actuar con coherencia y creer en ti mismo.",
+			"Los hábitos son difíciles de formar, pero una vez que lo hacemos, nos facilitan la vida cotidiana."
+			
+		]
+	},
+	{
+		"nombre": "Padre rico padre pobre",
+		"autor": "Robert Kiyosaki",
+		"indice": 6,
+		"fasters": [
+			"La carrera de la rata es una persecución interminable en la que hay que trabajar duro para poder pagar las facturas y los impuestos.",
+			"La educación financiera es poderosa, mientras que el dinero es donde se manifiesta este poder.",
+			"Una de las razones por las que los ricos se hacen más ricos, los pobres más pobres y la clase media se debate entre deudas es que el tema del dinero se enseña en casa, no en la escuela.",
+			"Para darnos cuenta de que estamos atrapados en la carrera de la rata, tenemos que examinar nuestras vidas desde la perspectiva de una tercera persona.",
+			"La avaricia nos exige mejorar nuestro nivel de vida, pero no nos enseña cómo hacerlo.",
+			"Si la educación financiera fuera una asignatura escolar y no algo que se deba enseñar en casa, hacerse rico no sería un objetivo inalcanzable, sino un objetivo muy real.",
+			"Empieza por invertir en tu mente. Inscríbite en seminarios, cursos y clases de finanzas, y lee todos los libros que puedas.",
+			"Invertir en acciones y bonos generará más ingresos en menos tiempo.",
+			"Trabajar duro por un sueldo y gastar la mayor parte por avaricia es el tipo de motivación equivocada.",
+			"Necesitas flujo de caja, personas y tiempo libre para empezar tu propio negocio.",
+			"Un empleado paga primero los impuestos y luego vive de lo que le queda de sueldo hasta la siguiente paga. Una empresa gasta todos sus ingresos y luego paga impuestos con lo que le queda.",
+			"Todos tenemos miedo a perder dinero. Pero ese miedo no es intrínsecamente perjudicial. Lo que marca la diferencia es nuestra actitud ante los riesgos.",
+			"La mayoría de la gente tiene problemas financieros porque juega a no perder en lugar de jugar a ganar.",
+			"Muchos nunca se hacen ricos porque el miedo a perder dinero supera la alegría de conseguirlo."	
+		]
+	},
+	{
+		"nombre": "Educación Financiera avanzada partiendo de cero",
+		"autor": "Gregorio Hernández Jiménez",
+		"indice": 7,
+		"fasters": [
+			"Invertir en conocimientos económicos y en la disciplina personal es más rentable a largo plazo que la acumulación de efectivo.",
+			"La vida nunca se detiene. Una vez conseguidos los objetivos de largo plazo que se haya propuesto, podrá plantarse unos nuevos objetivos más ambiciosos y beneficiosos para usted.",
+			"Antes de invertir tu dinero, debes invertir tiempo en definir tus metas de vida a largo plazo. Esto guiará tu gestión financiera de manera efectiva.",
+			"La verdadera riqueza reside en los activos que generan ingresos constantes.",
+			"Para que una deuda sea buena, la rentabilidad que obtengas con el dinero prestado debe superar el interés que pagas.",
+			"El dinero es como una semilla que, cuando se cultiva con sabiduría y paciencia, puede crecer hasta convertirse en un frondoso árbol.",
+			"Trabajar: El primer paso para el éxito es ganar dinero. Ya sea trabajando para otros, siendo autónomo o emprendiendo, debes generas ingresos. Incluso con un salario modesto o con poco retorno, es posible aprender a hacer que tu dinero trabaje para ti con el tiempo.",
+			"Ahorrar: Después de ganar dinero, el siguiente paso es ahorrar una parte de él. Esto implica resistir la tentación de gastarlo todo en el presente y dejarlo apartado para futuras inversiones. Recuerda, gasta lo que te sobre después de ahorrar, no ahorres lo que te sobra después de gastar.",
+			"Invertir: El ahorro es importante, pero no suele ser suficiente. Debes invertir tu dinero de manera que su rentabilidad supere la inflación. Esto significa que tu dinero debe crecer con el tiempo para mantener su poder adquisitivo y mejorar tu situación financiera. Solo invierte dinero que estés dispuesto a perder, no arriesgues todos tus ahorros, ni comprometas tu futuro o el de tu familia.",
+			"Formarse: Antes de invertir, es crucial aprender cómo hacerlo. Nadie nace siendo un experto. Afortunadamente, se pueden encontrar a profesionales cualificados en el tema diespuestos a enseñarte. Aunque convertirse en un inversor excepcional puede ser complicado, aprender los fundamentos y lograr buenas rentabilidades está al alcance de todos.",
+			"Paciencia: La riqueza no va a llegar hoy, ni mañana, ni pasado; la mayoría debe armarse de paciencia para alcanzar sus objetivos financieros.",
+			"Disciplina: Diseñar planes financieros adecuados es crucial, pero cumplirlos es algo completamente diferente. Debes mantener una disciplina en el ahorro y en la inversión, siguiendo tus estrategias incluso cuando enfrentes dificultades. Procura modificar dicha estrategia en la menor medida posible si no quieres que afecte a tu rendimiento.",
+			"Prudencia: Dedica tiempo a aprender sobre gestión financiera y a conocer tus propios límites como persona. Evita inversiones que no entiendas y busca el equilibrio entre riesgo y seguridad.",
+			"Sentido común: Por mucho, una de las más fáciles de ignorar. En el mundo de las finanzas, es tu mejor amigo. Elige estrategias que comprendas y que parezcan lógicas. Evita las inversiones complicadas y las modas. Mientras más fácil te sea de entender, mejor.",
+			"La clave más importante de todas para crear, aumentar y mantener su propio patrimonio es usted mismo.",
+			"Antes de embarcarte  en la búsqueda de la riqueza, es esencial conocer tu situación financiera actual.",
+			"En el mundo de las inversiones optimizar tu balance es decisivo para alcanzar tus objetivos. Esto implica tomar decisiones inteligentes sobre qué mantener y qué vender."
+		]
+	},
+	{
+		"nombre": "Vende como loco",
+		"autor": "Sabri Suby",
+		"indice": 8,
+		"fasters": [
+			"Las ventas son la base del éxito empresarial.",
+			"Actividad no equivale a productividad: la finalidad la define.",
+			"La publicidad inteligente es una inversión de alto rendimiento para tu empresa.",
+			"El trabajo de un anuncio no es vender, sino crear intriga y conseguir que el posible cliente levante la mano y diga: 'me interesa'",
+			"Un mensaje bien elaborado habla a los corazones, no solo a las carteras.",
+			"Educa a tus clientes para fomentar la confianza y aumentar las ventas.",
+			"Fíjate  en lo que dice y siente tu público. ¿Con qué está contento? ¿Con qué está descontento? Fíjate en sus preocupaciones y preguntas.",
+			"La especificidad afina los mensajes de la mercadotecnia para lograr un mayor impacto.",
+			"Una oferta atractiva siempre ganan a un argumento persuasivo."
+		]
+	},
+	{
+		"nombre": "Microaprendizaje: Breve y agradable",
+		"autor": "Karl M. Kapp, Robyn A. Defelice",
+		"indice": 9,
+		"fasters": [
+			"La capacidad de adaptación es fundamental para el crecimiento tanto personal como profesional.",
+			"El microaprendizaje no puede sustituir un sistema educativo completo. Solamente funciona cuando está integrado.",
+			"Al diseñar microaprendizaje, debes decidir qué quieres que haga el participante, no lo que necesita saber.",
+			"Evita utilizar un método único para todos, el aprendizaje debe ser inclusivo y diversificado.",
+			"Para alcanzar el éxito, se requiere una preparación minuciosa, atención a los detalles y una actitud abiera a la evolución.",
+			"Necesitas seguir principios de diseño sólidos cuando desarrolles tu programa de microaprendizaje.",
+			"Cuando produzcas algo, mantén un enfoque centrado en el usuario.",
+			"El crecimiento es un viaje continuo, no un destino final."
+		]
+	},
+	{
+		"nombre": "Controla tu mente",
+		"autor": "Jennie Allen",
+		"indice": 10,
+		"fasters": [
+			"La espiritualidad y la ciencia van a menudo por el mismo camino.",
+			"La mente puede ser nuestra mayor liberación y nuestra mayor trampa.",
+			"La intención es el primer paso para detener una espiral negativa.",
+			"Nuestras ocupadas vidas nos obligan a crear cordura de la nada. Cuando tenemos libertad para relajarnos, nuestra mente se empaña.",
+			"Establecer vínculos significativos se ha vuelto extremadamente difícil en el siglo XXI.",
+			"La humildad nos libera de las expectativas, a diferencia del cinismo.",
+			"Las personas más agradecidas son las que pasaron pr un sufrimiento extremo."
+		]
+	},
+	{
+		"nombre": "Cómo comunicarse con los demás",
+		"autor": "Leil Lowndes",
+		"indice": 11,
+		"fasters": [
+			"A menudo, no puedes decir lo que piensas, no por timidez, sino porque nadie te enseñó la forma correcta de hacerlo.",
+			"El momento exacto en que dos seres humanos se miran a los ojos tiene una potencia impresionante.",
+			"Mira solo al oyente, tu objetivo, no al que habla. Interésate de verdad por sus reacciones.",
+			"Ninguna atención es indeseable si quieres conocer gente nueva. Asi que vístete bien para llamar la atención de los demás.",
+			"Siempre que te pregunten, háblale a la otra persona de ti de una forma única.",
+			"Al acercarte a un grupo de un ámbito profesional diferente, intenta averiguar qué temas candentes pueden llamar su atención.",
+			"Nos agradan más las personas que comparten los mismos valores que nosotros.",
+			"Con un solo cumplido mal empleado, podrías matar toda la relación, así que elige sabiamente.",
+			"Tu personalidad, la mía y la de todo el mundo podría compararse con un espectáculo, una representación teatral. Debes asegurarte de que el tuyo sea un éxito en taquilla, no un fracaso.",
+			"Las personas se involucran más en una conversación cuando mencionas su nombre.",
+			"Al llegar a una fiesta aclara tus prioridades: o comes y bebes o te relacionas. Si haces las dos cosas, solo disfrutarás de tu propia compañia.",
+			"Si no señalas lo que otros hacen mal, ellos tampoco lo harán contigo."
+		]
+	},
+	{
+		"nombre": "El arte de la felicidad",
+		"autor": "Dalai Lama",
+		"indice": 12,
+		"fasters": [
+			"La felicidad busca ser compartida con los demás, las personas felices están más dispuestas a compartir su felicidad.",
+			"La felicidad proviene, en primer lugar, de alcanzar la inteligencia emocional y mostrar compasión hacia los demás.",
+			"Si dejamos que el arrepentimiento y el dolor del rechazo persistan, corremos el riesgo de hundirnos en la soledad.",
+			"Con la empatía, podemos esperar encontrar y mantener la felicidad a través de la compasión.",
+			"El sufrimiento no es un castigo por algún delito que hayas cometido, sino una parte esencial de la existencia.",
+			"Debemos perdonar a los que nos ofenden y procurar simplemente vivir en paz.",
+			"¿Sabías que...? El Dalai Lama tiene un don para reparar relojes de pulseras.",
+			"Si cambiamos nuestra forma de ver el mundo, podemos cambiar el mundo.",
+			"Es importante dejar de lado los pensamientos perjudiciales que surgen en nuestros momentos de estrés.",
+			"El amor y la compasión son necesidades, no lujos. Sin ellos, la humanidad no puede sobrevivir.",
+			"La ansiedad es un enemigo más potente que el miedo, se alimenta de nuestra voluntad de pensar fuera de la lógica.",
+			"La ansiedad debe ser sometida y rápidamente antes de que cause daños irreparables.",
+			"Concéntrate en la satisfacción que obtendrás cuando completes la tarea y verás cómo se desvanece la ansiedad.",
+			"El autoengaño es un aliado peligroso en el que buscar refugio. Debes aceptar tus puntos fuertes y débiles."
+		]
+	},
+	{
+		"nombre": "Cómo ser un imperfeccionista",
+		"autor": "Stephen Guise",
+		"indice": 13,
+		"fasters": [
+			"El perfeccionismo no es garantía de éxito.",
+			"El perfeccionismo suele ser la causa de la frustración, la depresión y diversos tipos de adicciones.",
+			"Nunca utilices la culpa como motivación.",
+			"Debido al perfeccionismo, no aceptamos los buenos resultados, solo los mejores.",
+			"Podemos evitar preocuparnos por los errores gracias a la conciencia de nuestras imperfecciones.",
+			"Intentamos encontrar la motivación pensando, mientras que lo que en realidad se requiere es acción.",
+			"Hacer lo que puedas es el secreto del éxito.",
+			"Podemos avanzar y ser felices viendo los errores como amigos, no como enemigos.",
+			"La clave para construir una confianza poderosa es decidir específicamente en qué puedes tener confianza ahora mismo, y a construir a partir de ahí.",
+			"Con el pensamiento binario, no es cuestión de lo bien que completamos la tarea, sino del hecho de que lo hicimos."
+		]
+	},
+	{
+		"nombre": "Llegar a cero",
+		"autor": "Jayson Gaddis",
+		"indice": 14,
+		"fasters": [
+			"Los conflictos interpersonales pueden complicarse muy rápidamente. Nunca los dejer sin resolver.",
+			"El conflicto interpersonal rara vez es unilateral. El comportamiento o la comunicación de la otra persona puede haber contribuido a la situación.",
+			"La comunicación es esencial para las relaciones interpersonales. No la dejes de lado.",
+			"Asumir la responsabilidad de tu parte en los conflictos es una de las formas más rapidas de aliviar la tensión.",
+			"Sé más prudente en la elección de tus palabras cuando hables para resolver una disputa.",
+			"Evita los discursos largos, ya que abruman a la otra persona y dificultan su capacidad para procesar la información.",
+			"Ten en cuenta tu comunicación no verbal, como el tono de voz, el lenguaje corporal y las expresiones faciales. Todo ello influye mucho en la comprensión y las reacciones de tu interlocutor.",
+			"Trata de mantener el contacto visual siempre que sea posible. Ayuda a rebajar la tensión y a minimizar los malentendidos y los recuerdos negativos del pasado.",
+			"Si es posible, acércate a la persona. No la evites. Aproxímate (física o emocionalmente) en lugar de distanciarte. Seguir este consejo indica tu deseo de calmar la situación y reconectar.",
+			"Considera la posibilidad de tener un contacto físico apropiado. Unas caricias suaves en la mano o el hombro, o una palmada en la espalda, pueden suponer un alivio instantáneo y ayudar a resolver la disputa de manera más rápida.",
+			"Debes diferenciar entre el comportamiento de una persona durante el conflicto y su identidad. Evita mezclar ambas e interpretarlo durante ese tiempo como su personalidad real. Eso conduce a críticas y actitudes defensivas innecesarias.",
+			"La crisis no debe impedirte recordar los valores y preocupaciones del otro. Reconocer lo que importa crea un entorno más receptivo para resolver los problemas.",
+			"Comunícate con responsabilidad y respeto. La forma en que lo hagas importa mucho. Sé siempre respetuoso para fomentar un proceso de resolución más sano.",
+			"Evita conversaciones sinceras puede conducir a relaciones insatisfactorias y a acumular resentimientos. Conversar y abordar las dificultades es fundamental para establecer vínculos auténticos y para el crecimiento personal.",
+			"Habla cuanto antes. No esperes demasiado para tratar el asunto. Es aconsejable hacerlo lo antes posible. Retrasarlo puede agravar los problemas y provocar heridas emocionales más profundas.",
+			"Respeta los valores y creencias de tu pareja, aunque no estés de acuerdo con ellos.",
+			"Siempre es mejor resolver los conflictos inmediatamente. Prolongarlos no ayuda."
+		]
+	},
+	{
+		"nombre": "Dinero: Instrucciones de uso",
+		"autor": "Laura Whateley",
+		"indice": 15,
+		"fasters": [
+			"No puedes aprender si no haces preguntas.",
+			"Tu situación económica no define tu valía.",
+			"Trata el dinero como una herramienta, no como una droga.",
+			"Ser bueno con tu dinero no consiste solo en ganar más.",
+			"Invierte pequeñas sumas ahora para disfrutar de cantidades considerables más adelante.",
+			"Una declaración de la renta honesta puede salvar la vida de alguien, aunque tú no lo sepas.",
+			"Deja que el dinero te proporcione comodidad, no felicidad."
+		]
+	},
+	{
+		"nombre": "La ciencia de la autodisciplina",
+		"autor": "Peter Hollins",
+		"indice": 16,
+		"fasters": [
+			"La falta de disciplina tiene su origen en suposiciones incorrectas sobre nosotros mismos, no en la pereza o la desorganización.",
+			"Eliminar el desorden físico y digital mejora la concentración y facilita el autocontrol al reducir las distracciones.",
+			"Controla las actividades que liberan domapina. Esta hormona es responsable de las sensaciones placenteras y es vital para establecer hábitos. Por lo tanto, las distracciones que liberan dopamina son díficles de combatir; comprobar las notificaciones de las redes sociales es un claro ejemplo. Pero podemos utilizar esta hormona a nuestro favor, combinando actividades necesarias como hacer ejercicio y socializar.",
+			"Haz que las opciones saludables se conviertan en lo habitual. Aprovechemos nuestra tendencia a elegir la opción de menor resistencia. Podemos desconectar de las redes sociales o dejar nuestros dispositivos en otra habitación si notamos que estamos enganchado al teléfono. De este modo, solo lo usaremos en caso de necesidad.",
+			"Aspirar a lo más alto puede ser un remedio eficaz para dejar de subestimarnos.",
+			"El cerebro humano tiene aproximadamente cien mil millones de neuronas, tantas como estrellas hay en la Vía Láctea, así que nunca debemos subestimar nuestra capacidad.",
+			"Hacer un seguimiento de los descubrimientos más recientes en psicología y neurociencia es un hábito de los grandes triunfadores.",
+			"Recompensarnos a nosotros mismos es fundamental, pero no debemos caer en la tentación.",
+			"Detrás de la mayoría de los miedos se esconden oportunidades, así que utilicemos la fuerza de voluntad para salir de nuestra zona de confort.",
+			"Todo el mundo tiene miedos, inseguridades y preocupaciones diferentes. Pero mucha gente pasa la vida evitando estas cosas, limitando así su propio potencial." 
+		]
+	},
+	{
+		"nombre": "El código de la emoción",
+		"autor": "Bradley Nelson",
+		"indice": 17,
+		"fasters": [
+			"Cada emoción atrapada es una historia que espera ser contada.",
+			"Las emociones que no afrontamos conformarán la realidad del mañana. Pueden ayudarnos o hacernos tropezar en el camino hacia el éxito.",
+			"Todo sucede a través del pensamiento, la creencia y la intención.",
+			"Cuando tomes decisiones difíciles, presta siempre atención a tu subconsciente.",
+			"Las emociones pueden ser invisibles, pero su impacto es siempre tangible.",
+			"El universo también apoya tus creencias sobre ti mismo.",
+			"Sanar el pasado sienta las bases de un futuro mejor.",
+			"Las emociones compartidas son la mejor manera de conectar con los demás y construir relaciones sólidas."
+		]
+	},
+	{
+		"nombre": "Inmune",
+		"autor": "Philipp Dettmer",
+		"indice": 18,
+		"fasters": [
+			"Confiar en el sistema inmunitario es como jugar a la lotería. Conocer su reacción exacta ante bacterias y virus es imposible.",
+			"La evolución no tuvo que reinventar el sistema inmunitario una y otra vez: encontró un gran sistema y luego lo perfeccionó.",
+			"La función del sistema inmunitario es ver la diferencia entre uno mismo y los demás y eliminar inmediatamente a los huéspedes no invitados.",
+			"Un pequeño corte puede no ser gran cosa para ti, pero es una catástrofe absoluta para tus células.",
+			"El proceso de inflamación es como un tsunami. Los fluidos se apresuran a llenar la parte herida del cuerpo.",
+			"La gripe es un ataque repentino a tu cuerpo, mientras que un resfriado puede desarrollarse gradualmente.",
+			"El VIH es como un soldado que matara a su víctima y luego desollara su cadáver y se pusiera la piel como disfraz para pasear por la ciudad durante el día.",
+			"Incluso un pequeño resfriado es un grave peligro para los enfermos de sida. Así de débil se vuelve su sistema inmunitario."
+		]
+	},
+	{
+		"nombre": "Los hombres son de Marte, las mujeres de Venus",
+		"autor": "John Gray",
+		"indice": 19,
+		"fasters": [
+			"En el caso de los humanos, los conflictos son bastante habituales, pero podemos encontrar una solución mediante el diálogo.",
+			"Las parejas deben crear un espacio para el diálogo y reducir, en cambio, la aparición de discusiones.",
+			"Las parejas suelen tener problemas en su relación porque no comprenden que las acciones de su compañero/a no reflejan las suyas.",
+			"Para que las parejas vivan efectivamente libres de conflictos, deben comprometerse a comprender y utilizar las diferencias clave de cada uno.",
+			"Los hombres pueden confundir la necesidad de una mujer de cuidar y apoyar con una muestra de debilidad y se ofenderán.",
+			"En el corazón de cualquier mujer está el deseo de ser escuchada, comprendida y apreciada.",
+			"Como tiene miedo de no ser apoyada, aleja, sin saberlo, el apoyo que necesita.",
+			"La comunicación no siempre consiste en el intercambio verbal; también puede haber señales no verbales.",
+			"El hombre tiene un deseo apabullante de pasar la vida solo; gran parte de ella gira en torno a la autoaprobación.",
+			"Es importante reconocer y comprender cómo reacciona tu pareja ante determinados detonantes o sucesos; esto ayuda a afrontarlos mejor.",
+			"Cuando los hombres y las mujeres pueden respetar y aceptar sus diferencias, el amor tiene la oportunidad de florecer.",
+			"Los hombres y las mujeres expresan y experimentan el amor de forma diferente. Respetar esto es clave para comprenderse.",
+			"Durante una discusión, es esencial centrarse en el problema y no en la pareja."
+		]
+	},
+	{
+		"nombre": "El obstáculo es el camino",
+		"autor": "Ryan Holiday",
+		"indice": 20,
+		"fasters": [
+			"Un obstáculo no tiene por qué ser una parada definitiva. Simplemente aprende a superarlo y a hacerlo mejor la próxima vez.",
+			"La percepción es personal. Tienes más control sobre lo que crees de lo que te imaginas.",
+			"Mi vida es una larga carrera de obstáculos en la que yo soy el principal obstáculo.",
+			"Puedes cambiar tu forma de ver las cosas, pero primero tienes que entender tu manera de actuar por defecto.",
+			"Puedes hacer cualquier cosa que te propongas firmemente. Simplemente tienes que creerlo.",
+			"Creer en algo y no vivirlo es deshonesto.",
+			"Tus sueños no van a aterrizar en tu regazo por arte de magia. Haz algo para conseguirlos.",
+			"Puedes ver el fracaso como un punto final o una curva en el camino. La elección es tuya.",
+			"Cuando las cosas se pongan difíciles, no tires la toalla. Céntrate en el proceso y observa el resultado final.",
+			"La vida rara vez es un camino de rosas. Tu voluntad te permite levantarte, sacudirte el polvo y seguir adelante.",
+			"Independientemente del contratiempo, no hay que dejar de sentir pasión por lo que se hace."
 		]
 	}
 ]
