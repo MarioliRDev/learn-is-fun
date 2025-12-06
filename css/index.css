@@ -1,16 +1,19 @@
 :root {
 	--amarillo: #e4b302;
-	--amarillo-dark: #e4b302cc;
+	--amarillo-dark: #e4b30277;
 	--celeste: #158fa2;
+	--celeste-light: #158fa2bb;
 	--naranja: #de4f3a;
-	--naranja-dark: #de4f3acc;
+	--naranja-dark: #de4f3abb;
 	--bordo: #722731;
-	--bordo-dark: #722731cc;
+	--bordo-dark: #722731bb;
 	--rosa: #bd1b43;
-	--rosa-dark: #bd1b43cc;
+	--rosa-dark: #bd1b43bb;
 	--negro: #1f1f1f;
+	--negro-claro: #1f1f1f1f;
 	--blanco: #efefef;
-	font-size: 16px;
+	--blanco-claro: #efefef77;
+	font-size: 12px;
 }
 
 * {
@@ -34,7 +37,8 @@ body {
 }
 
 header {
-	background: var(--amarillo);
+  background: var(--amarillo-dark);
+  position: relative;
 	box-shadow: 0 1px 5px var(--amarillo);
 	padding: 1rem .5rem;
 	display: flex;
@@ -42,6 +46,35 @@ header {
 	align-items: stretch;
 	justify-content: space-evenly;
 	gap: 1rem;
+	overflow: hidden;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(
+      to bottom, 
+      var(--amarillo-dark) calc(100% - 18px), 
+      transparent 100%
+    ),
+    linear-gradient(
+      to right, 
+      transparent 0%, 
+      var(--amarillo-dark) 18px, 
+      var(--amarillo-dark) calc(100% - 18px), 
+      transparent 100%
+    );
+  pointer-events: none; /* Para que no interfiera con clics */
+  z-index: 1;
+}
+
+header > * {
+	z-index: 2;
 }
 
 header > .top-container {
@@ -81,7 +114,7 @@ main {
 article {
 	width: 150px;
 	border-radius: 10px;
-	border: 1px solid var(--celeste);
+	border: 1px solid var(--blanco);
 	box-shadow: 0 0 6px var(--celeste);
 	overflow: hidden;
 }
@@ -89,8 +122,8 @@ article {
 
 svg {
 	fill: var(--negro);
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	margin: .3rem .9rem .3rem 0;
 	cursor: pointer;	
 	transition: scale ease .3s;
@@ -101,12 +134,16 @@ svg:hover {
 
 
 .fasters {
-	background: var(--rosa);
+	background: linear-gradient(var(--celeste-light),
+		var(--celeste) 18px, var(--celeste) calc(100% - 18px),
+		var(--celeste-light));
 	margin: 1rem;
 	padding: 1rem;
-	box-shadow: 0 0 6px var(--naranja);
+	box-shadow: 0 0 6px var(--celeste);
 	display: flex;
 	flex-direction: column;
+	border-radius: 3px;
+	border: 1px solid var(--negro);
 }
 
 .faster-buttons {
@@ -120,8 +157,35 @@ svg:hover {
 .faster-buttons .indice {
 	position: absolute;
 	left: 0;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	display: block;
+	color: var(--negro);
+	background: #0003;
+	padding: 0 3px;
+	border-radius: 3px;
+}
+
+.faster-buttons .show-all {
+	position: absolute;
+	right: 0;
+	background: linear-gradient(var(--negro),
+		var(--amarillo) 3px, var(--amarillo) calc(100% - 3px), var(--negro));
+	border-left: 1px solid var(--negro);
+	border-right: 1px solid var(--negro);
+	padding: 6px 12px;
+	border-radius: 3px;
+	font-size: 1.2rem;
+	transition: scale .1s ease-in-out;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.faster-buttons .show-all:hover {
+	scale: 1.01;
+}
+
+.faster-buttons .show-all:active {
+	scale: 1;
 }
 
 h2 {
@@ -129,10 +193,11 @@ h2 {
 	color: var(--negro);
 	/*border-bottom: 3px solid var(--negro);*/
 	padding-bottom: 6px;
-	text-decoration: underline solid var(--negro) 3px;
+	margin-bottom: 12px;
+/*	text-decoration: underline solid var(--negro) 3px;
 	text-shadow: 0 0 2 px var(--negro);
 	text-underline-offset: .5rem;
-}
+*/}
 
 ul {
 	list-style: none;
@@ -140,19 +205,35 @@ ul {
 }
 
 li {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	padding: 9px;
-
 	margin-bottom: 18px;
-	background: var(--amarillo);
+	background: linear-gradient(var(--negro),
+		var(--blanco) 6px, var(--blanco) calc(100% - 6px), var(--negro));
 	color: var(--negro);
 	border-radius: 6px;
+	border-left: 1px solid var(--negro);
+	border-right: 1px solid var(--negro);
 	text-shadow: 0 0 2px var(--negro);
+	transition: scale .1s ease-in-out;
+}
+
+.book {
+	cursor: pointer;
+}
+
+.book:hover {
+	scale: 1.001;
+}
+
+.book:active {
+	scale: 1;
 }
 
 .hide {
 	opacity: 0;
 	visibility: hidden;
+	pointer-events: none;
 	position: absolute;
 }
 
@@ -183,7 +264,7 @@ body.dark img {
 
 @media screen and (min-width: 500px) {
 	:root {
-		font-size: 17px;
+		font-size: 15px;
 	}
 
 	main {
@@ -195,7 +276,7 @@ body.dark img {
 	}
 
 	svg {
-		width: 60px;
+		width: 35px;
 	}
 
 }
@@ -214,6 +295,6 @@ body.dark img {
 	}
 
 	svg {
-		width: 70px;
+		width: 40px;
 	}
 }

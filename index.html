@@ -30,6 +30,7 @@
 			<span class="indice" ></span>
 			<svg class="fasters-back" xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
 			<svg class="fasters-forward" xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" ><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+			<button class="show-all">Mostrar todos</button>
 		</div>
 	</section>
 	<main>
@@ -154,6 +155,8 @@
 		const indiceSpan = el(".indice");
 		const fastersBackBtn = el(".fasters-back");
 		const fastersForwardBtn = el(".fasters-forward");
+		const fasterBtns = el(".faster-buttons");
+		const showAllBtn = el(".show-all");
 
 		let indiceActual;
 		
@@ -174,6 +177,10 @@
 		fastersForwardBtn.addEventListener("click", () => {
 			if (indiceActual + 1 === undefined) return;
 			fasterChange(indiceActual + 1)
+		})
+
+		showAllBtn.addEventListener("click", () => {
+			fastersJSON.then(data => showAllFasters(data))
 		})
 
 		function turnLight () {
@@ -244,9 +251,48 @@
 				el(".fasters h2").remove();
 				el(".fasters ul").remove();
 				makeFasters(data, index);
+				fasters.scrollIntoView({ "behavior": "smooth" })
 			})
-		
 		}
+
+		function showAllFasters (data) {
+			const fragment = document.createDocumentFragment();
+			const fastersUl = document.createElement("UL");
+			fastersUl.classList.add("books");
+
+			data.forEach(obj => {
+				let fasterLi = document.createElement("LI");
+				let textoLi = document.createTextNode(`${obj.indice} ${obj.nombre} - ${obj.autor}`)
+			
+				fasterLi.appendChild(textoLi);
+				fasterLi.classList.add("book");
+				fasterLi.id = obj.indice - 1;
+				fasterLi.addEventListener("click", (e) => {
+
+					expandFaster(Number(e.target.id))
+
+				})
+				fastersUl.appendChild(fasterLi);
+			})
+
+			fragment.appendChild(fastersUl);
+			el(".fasters h2").remove();
+			el(".fasters ul").remove();
+			fasterBtns.classList.add("hide");
+			fasters.prepend(fragment);
+			fasters.scrollIntoView({ "behavior": "smooth" })
+		}
+
+		function expandFaster (indice) {
+			fastersJSON.then(data => {
+				el(".books").remove();
+				makeFasters(data, indice);
+				fasterBtns.classList.remove("hide")
+				fasters.scrollIntoView({ "behavior": "smooth" })
+				indiceActual = indice;
+			})
+		}
+
 	</script>
 </body>
 </html>
