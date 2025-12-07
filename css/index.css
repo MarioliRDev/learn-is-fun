@@ -1,18 +1,16 @@
 :root {
 	--amarillo: #e4b302;
-	--amarillo-dark: #e4b30277;
+	--amarillo-l: #e4b30277;
 	--celeste: #158fa2;
-	--celeste-light: #158fa2bb;
+	--celeste-l: #158fa277;
 	--naranja: #de4f3a;
-	--naranja-dark: #de4f3abb;
 	--bordo: #722731;
-	--bordo-dark: #722731bb;
 	--rosa: #bd1b43;
-	--rosa-dark: #bd1b43bb;
 	--negro: #1f1f1f;
-	--negro-claro: #1f1f1f1f;
+	--sombra-negra: #1f1f1f3f;
 	--blanco: #efefef;
-	--blanco-claro: #efefef77;
+	--blanco-l: #777;
+	--sombra-blanca: #efefef3f;
 	font-size: 12px;
 }
 
@@ -33,13 +31,14 @@ body {
 	width: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	color: var(--blanco);
+	color: var(--negro);
 }
 
 header {
-  background: var(--amarillo-dark);
+  background: var(--amarillo);
   position: relative;
-	box-shadow: 0 1px 5px var(--amarillo);
+	box-shadow: inset 5px -5px 5px var(--sombra-blanca),
+							inset -5px 0 5px var(--sombra-blanca);
 	padding: 1rem .5rem;
 	display: flex;
 	flex-direction: column;
@@ -49,33 +48,7 @@ header {
 	overflow: hidden;
 }
 
-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: 
-    linear-gradient(
-      to bottom, 
-      var(--amarillo-dark) calc(100% - 18px), 
-      transparent 100%
-    ),
-    linear-gradient(
-      to right, 
-      transparent 0%, 
-      var(--amarillo-dark) 18px, 
-      var(--amarillo-dark) calc(100% - 18px), 
-      transparent 100%
-    );
-  pointer-events: none; /* Para que no interfiera con clics */
-  z-index: 1;
-}
 
-header > * {
-	z-index: 2;
-}
 
 header > .top-container {
 	display: flex;
@@ -85,13 +58,27 @@ header > .top-container {
 header > h1 {
 	align-self: center;
 	font-size: 1.8rem;
-	color: var(--negro);
 	text-shadow: 0 0 2px var(--negro);
 }
 
 header > div > .icons {
 	justify-self: flex-end;
-	}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icons .light-mode {
+	box-shadow: inset -2px -2px 2px var(--sombra-negra),
+							inset 2px 2px 2px var(--sombra-negra);
+							border-radius: 3px;
+}
+
+.icons .dark-mode {
+	box-shadow: inset -2px -2px 2px var(--sombra-blanca),
+							inset 2px 2px 2px var(--sombra-blanca);
+							border-radius: 3px;
+}
 
 .logo {
 	width: 60px;
@@ -114,11 +101,16 @@ main {
 article {
 	width: 150px;
 	border-radius: 10px;
-	border: 1px solid var(--blanco);
-	box-shadow: 0 0 6px var(--celeste);
 	overflow: hidden;
+	padding: 6px;	
+	box-shadow: inset 3px 3px 3px var(--sombra-negra),
+							inset -3px -3px 3px var(--sombra-negra);
+
 }
 
+article a img {
+	border-radius: 6px;
+}
 
 svg {
 	fill: var(--negro);
@@ -134,16 +126,15 @@ svg:hover {
 
 
 .fasters {
-	background: linear-gradient(var(--celeste-light),
-		var(--celeste) 18px, var(--celeste) calc(100% - 18px),
-		var(--celeste-light));
+	background: var(--celeste);
+	box-shadow: inset 5px 5px 5px var(--sombra-blanca),
+							inset -5px -5px 5px var(--sombra-blanca);
 	margin: 1rem;
 	padding: 1rem;
-	box-shadow: 0 0 6px var(--celeste);
 	display: flex;
 	flex-direction: column;
 	border-radius: 3px;
-	border: 1px solid var(--negro);
+	/*border: 1px solid var(--negro);*/
 }
 
 .faster-buttons {
@@ -159,21 +150,21 @@ svg:hover {
 	left: 0;
 	font-size: 1.8rem;
 	display: block;
-	color: var(--negro);
-	background: #0003;
-	padding: 0 3px;
+	background: var(--blanco);
+	box-shadow: inset -2px -2px 2px var(--sombra-negra),
+							inset  2px  2px 2px var(--sombra-negra);
+	padding: 0 6px;
 	border-radius: 3px;
 }
 
 .faster-buttons .show-all {
 	position: absolute;
 	right: 0;
-	background: linear-gradient(var(--negro),
-		var(--amarillo) 3px, var(--amarillo) calc(100% - 3px), var(--negro));
-	border-left: 1px solid var(--negro);
-	border-right: 1px solid var(--negro);
-	padding: 6px 12px;
-	border-radius: 3px;
+	background: var(--amarillo);
+	box-shadow: inset -2px -2px 2px var(--sombra-negra),
+							inset  2px  2px 2px var(--sombra-negra);
+	padding: 3px 6px;
+	border: none;
 	font-size: 1.2rem;
 	transition: scale .1s ease-in-out;
 	cursor: pointer;
@@ -190,14 +181,9 @@ svg:hover {
 
 h2 {
 	font-size: 1.5rem;
-	color: var(--negro);
-	/*border-bottom: 3px solid var(--negro);*/
 	padding-bottom: 6px;
 	margin-bottom: 12px;
-/*	text-decoration: underline solid var(--negro) 3px;
-	text-shadow: 0 0 2 px var(--negro);
-	text-underline-offset: .5rem;
-*/}
+}
 
 ul {
 	list-style: none;
@@ -208,15 +194,16 @@ li {
 	font-size: 1.2rem;
 	padding: 9px;
 	margin-bottom: 18px;
-	background: linear-gradient(var(--negro),
-		var(--blanco) 6px, var(--blanco) calc(100% - 6px), var(--negro));
-	color: var(--negro);
+	background: var(--blanco);
 	border-radius: 6px;
-	border-left: 1px solid var(--negro);
-	border-right: 1px solid var(--negro);
+	/*border: ;*/
 	text-shadow: 0 0 2px var(--negro);
 	transition: scale .1s ease-in-out;
+	overflow: hidden;
+	position: relative;
+	box-shadow: inset -1px -2px 3px var(--negro);
 }
+
 
 .book {
 	cursor: pointer;
@@ -239,27 +226,40 @@ li {
 
 body.dark {
 	background: var(--negro);
-	color: var(--negro);
 }
 
 body.dark header {
-	background: var(--amarillo-dark);
+	background: var(--amarillo-l);	
+	box-shadow: inset 5px -5px 5px var(--sombra-negra),
+							inset -5px 0 5px var(--sombra-negra);
+
 }
 
 body.dark svg {
-	fill: var(--blanco);
+	fill: var(--blanco-l);
 }
 
 body.dark .fasters {
-	background: var(--rosa-dark);
+	background: var(--celeste-l);
+	box-shadow: inset 5px 5px 5px var(--sombra-negra),
+							inset -5px -5px 5px var(--sombra-negra);
+
 }
 
 body.dark .fasters ul li {
-	background: var(--amarillo-dark);
+	background: var(--blanco-l);
+}
+
+body.dark .show-all {
+	background: var(--amarillo-l);
+}
+
+body.dark .indice {
+	background: var(--blanco-l);
 }
 
 body.dark img {
-	filter: brightness(75%);
+	filter: brightness(50%);
 }
 
 @media screen and (min-width: 500px) {
@@ -276,7 +276,8 @@ body.dark img {
 	}
 
 	svg {
-		width: 35px;
+		width: 40px;
+		height: 40px;
 	}
 
 }
@@ -295,6 +296,7 @@ body.dark img {
 	}
 
 	svg {
-		width: 40px;
+		width: 50px;
+		height: 50px;
 	}
 }

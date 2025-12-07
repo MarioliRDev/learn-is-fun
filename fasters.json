@@ -758,5 +758,15 @@
 			"No debes hacerlo bien a la primera, puede que necesites varios intentos antes de encontrar la profesión perfecta.",
 			"Sobre todo, haz lo que puedas para mejorar la situación, date cuenta de que estas haciéndolo lo mejor que puedes y deja de desear cosas que son imposibles."
 		]
+	},
+	{
+		"nombre": "Como ponerse las pilas",
+		"autor": "Sean Whalen",
+		"indice": 45,
+		"fasters": [
+			"Medita a diario y dedica un tiempo considerable al estudio. Ambos te ayudarán a relajarte y a concentrarte bien en muchas cuestiones.",
+			"Los coaches te aportan nuevas perspectivas y las experiencias de otras personas. Nunca eres demasiado bueno para no aprender más.",
+			"La clave para mejorar es aceptar que lo has estado haciendo mal. Esto te ayudará a hacerlo de la forma correcta."
+		]
 	}
 ]
