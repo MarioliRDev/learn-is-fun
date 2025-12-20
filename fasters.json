@@ -768,5 +768,36 @@
 			"Los coaches te aportan nuevas perspectivas y las experiencias de otras personas. Nunca eres demasiado bueno para no aprender más.",
 			"La clave para mejorar es aceptar que lo has estado haciendo mal. Esto te ayudará a hacerlo de la forma correcta."
 		]
+	},
+	{
+		"nombre": "Céntrate (Deep Work)",
+		"autor": "Cal Newport",
+		"indice": 46,
+		"fasters": [
+			"Si no produces, no prosperarás, por muy capacitado o cualificado que estés.",
+			"El trabajo enfocado es fundamental una vez que se aprende a maximizar la productividad obtenible.",
+			"La tecnología está en constante cambio y, con el tiempo, tendrás que aprender y reaprender rápidamente un lenguaje interminable.",
+			"La atención residual aumenta la productividad cuando se trabaja con enfoque durante un tiempo prolongado.",
+			"Si quieres rendir a un nivel óptimo de productividad, trabaja durante largos periodos en una sola tarea, con plena concentración y cero distracciones: ¡trabaja a fondo!",
+			"Tenemos una fuerza de voluntad finita. Cuando se agota, solemos favorecer el trabajo superficial.",
+			"Si quieres trabajar a fondo, necesitas eliminar las actividades superficiales. Crea tiempo para el trabajo enfocado, y dedícate menos al trabajo superficial.",
+			"Ser estricto con los horarios es fundamental.",
+			"Menos desorden mental significa más recursos mentales disponibles para el pensamiento profundo.",
+			"La productividad no consiste en dedicar más horas al trabajo, sino en aprovechar al máximo las horas trabajadas y recuperar de forma óptima las horas no trabajadas."
+		]
+	},
+	{
+		"nombre": "La psicología del dinero",
+		"autor": "Morgan Housel",
+		"indice": 47,
+		"fasters": [
+			"Que te vaya bien con el dinero tiene poco que ver con tu inteligencia y mucho con tu comportamiento. Y el comportamiento es difícil de enseñar, incluso a las personas realmente inteligentes.",
+			"Es soberbia suponer que todos tus éxitos son el resultado directo de tu esfuerzo.",
+			"Tu felicidad nunca puede ser comparada con el dinero; no persigas el dinero a su costa.",
+			"Poder disfrutar de tu tiempo es el mayor dividendo que da el dinero.",
+			"Tu habilidad para invertir te dará dinero, pero necesitas algo más que habilidad para conservar la riqueza.",
+			"¡Nada es más importante que tu felicidad!",
+			"Cuando trates de construir un gran patrimonio, no te preocupes por impresionar a nadie."
+		]
 	}
 ]
