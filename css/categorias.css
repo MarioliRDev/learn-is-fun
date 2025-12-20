@@ -1,5 +1,5 @@
 :root {
-	font-size: 16px;
+	font-size: 12px;
 	font-family: "Indie Flower", system-ui, sans-serif;
 	--amarillo: #e4b302;
 	--amarillo-dark: #e4b302cc;
@@ -11,6 +11,7 @@
 	--rosa-dark: #bd1b43cc;
 	--negro: #1f1f1f;
 	--blanco: #efefef;
+	--sombra-blanca: #efefef3f;
 }
 
 * {
@@ -35,8 +36,8 @@ body {
 
 header {
 	background: var(--amarillo);
-	box-shadow: 0 1px 5px var(--amarillo);
-	padding: 1rem .5rem;
+	box-shadow: inset 5px -5px 5px var(--sombra-blanca),
+							inset -5px 0 5px var(--sombra-blanca);	padding: 1rem .5rem;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
@@ -59,8 +60,8 @@ header > div > div {
 
 svg {
 	cursor: pointer;
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	fill: var(--negro);
 	margin: .3rem .9rem .3rem 0;
 
@@ -102,26 +103,25 @@ article {
 	justify-content: space-between;
 	align-items: center;
 	text-align: center;
-	/*border-radius: 5px;*/
 	row-gap: 12px;
 	background: var(--celeste);
-	box-shadow: 0 0 6px var(--celeste);
-	border: 1px solid var(--celeste);
+	box-shadow: inset 5px 5px 5px var(--sombra-blanca),
+							inset -5px -5px 5px var(--sombra-blanca);
 }
 
 h2 {
 	font-size: 1.2rem;
-	margin: 3%;
-	padding: 3%;
+	padding: 6%;
 	word-wrap: break-word;
 	width: 94%;	
 	text-shadow: 0 0 2 px var(--negro);
+	/*background: var(--sombra-blanca);*//*
+	box-shadow: inset 5px 5px 5px var(--celeste),
+							inset -5px -5px 5px var(--celeste);*/
 }
 
 img {
 	width: 200px;
-	border: 1px solid var(--amarillo);
-	box-shadow: 0 0 6px var(--amarillo);
 	/*filter: brightness(75%);*/
 }
 
@@ -135,9 +135,8 @@ button {
 	cursor: pointer;
 	transition: scale ease .3s;
 	background: var(--amarillo);
-	border: 1px solid var(--amarillo);
-	box-shadow: 0 0 6px var(--amarillo);
-
+	box-shadow: inset 5px 5px 5px var(--sombra-blanca),
+							inset -5px -5px 5px var(--sombra-blanca);
 }
 
 button:hover {
@@ -184,7 +183,7 @@ body.dark article img {
 @media screen and (min-width: 600px) {
 
 	:root {
-		font-size: 17px;
+		font-size: 15px;
 	}
 
 	body {
@@ -199,6 +198,11 @@ body.dark article img {
 	.logo {
 		width: 70px;
 		height: 70px;
+	}
+
+	svg {
+		width: 40px;
+		height: 40px;
 	}
 
 }
@@ -221,5 +225,10 @@ body.dark article img {
 	.logo{
 		width: 80px;
 		height: 80px;
+	}
+
+	svg {
+		width: 50px;
+		height: 50px;
 	}
 }
