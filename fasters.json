@@ -799,5 +799,44 @@
 			"¡Nada es más importante que tu felicidad!",
 			"Cuando trates de construir un gran patrimonio, no te preocupes por impresionar a nadie."
 		]
+	},
+	{
+		"nombre": "El poder de los 5 segundos",
+		"autor": "Mel Robbins",
+		"indice": 48,
+		"fasters": [
+			"La mayoría de los problemas tienen su origen en la falta de confianza en nuestra capacidad para mejorar.",
+			"Los grandes cambios no son los que realmente transforman las cosas, sino los pequeños detalles de tu vida cotidiana.",
+			"Darle demasiadas vueltas a las cosas te hace centrarte en lo negativo. Como consecuencia de eso, tu mente te convence para que no actúes.",
+			"La idea de que debes estar motivado antes de hacer algo es un mito.",
+			"La regla de los 5 segundos funciona porque engaña a tu mente para que 'no piense demasiado en las cosas', lo que eliminará cualquier posibilidad de poner excusas.",
+			"Siempre habrá alguien que no vea tu valía. No permitas que esa persona seas tú.",
+			"Tener el valor suficiente para seguir intentándolo facilitará el camino hacia el éxito.",
+			"Tómate en serio la gestión de las distracciones admitiendo que obstaculizan tu productividad.",
+			"Muchas personas están atrapadas en la procrastinación, no por pereza absoluta, sino por miedo, perfeccionismo excesivo, bajos niveles de energía y falta de concentración.",
+			"Acabar con el hábito de la preocupación provocará uno de los cambios positivos más importantes en tu vida.",
+			"Superar el miedo permite disfrutar plenamente de la vida.",
+			"Cuanto más practiques los actos de valentía, más creerás que tienes el control de tu vida y, por tanto, más confianza tendrás en ti mismo.",
+			"Perseguir tu pasión y conservar relaciones sólidas te hará feliz."
+		]
+	},
+	{
+		"nombre": "Los 7 hábitos de las familias altamente efectivas",
+		"autor": "Stephen Covey",
+		"indice": 49,
+		"fasters": [
+			"Si quieres dirigir una familia eficaz, no pretendas acertar siempre.",
+			"Hábito 1 - Sé proactivo.",
+			"La proactividad consiste en elegir la solución de los problemas en función de la perspectiva general que tengas en mente.",
+			"Hábito 2 - Empezar con el objetivo en mente.",
+			"Hábito 3 - Dar prioridad a lo primero.",
+			"Hábito 4 - Piensa en 'ganar-ganar'.",
+			"Hábito 5 - Busca primero comprender...y luego ser comprendido.",
+			"El deseo más profundo del corazón humano es ser comprendido.",
+			"Hábito 6 - Sinergia.",
+			"Salvo en casos de divorcio, separación o muerte, la sinergia en la familia depende de la relación entre las parejas.",
+			"Hábito 7 - Afila la sierra.",
+			
+		]
 	}
 ]
