@@ -835,8 +835,81 @@
 			"El deseo más profundo del corazón humano es ser comprendido.",
 			"Hábito 6 - Sinergia.",
 			"Salvo en casos de divorcio, separación o muerte, la sinergia en la familia depende de la relación entre las parejas.",
-			"Hábito 7 - Afila la sierra.",
-			
+			"Hábito 7 - Afila la sierra."
+		]
+	},
+	{
+		"nombre": "A pecho descubierto",
+		"autor": "Liza Marshall y John Marshall",
+		"indice": 50,
+		"fasters": [
+			"Aunque parezca una tontería, el amor verdadero es una cura infravalorada hoy en día.",
+			"El universo siempre nos recuerda nuestra mortalidad, y aunque la aceptación es dolorosa, la negación nos impide seguir adelante.",
+			"Dense la mano durante un huracán. Sus peleas pueden esperar.",
+			"Sin el apoyo que recibimos, no estoy segura de si lo hubiéramos superado como familia.",
+			"El dolor es una parte fundamental de la via. Solo a través de él podemos apreciar la dicha de la salud.",
+			"Los niños mienten para evitar el castigo, y los adultos mienten para no causar daño.",
+			"Cuando leí la parte que se refería al verano que se avecinava, me atraganté. Me di cuenta que para entonces estaría muerta.",
+			"Con cada batalla llega también un duro análisis."
+		]
+	},
+	{
+		"nombre": "Maneras de amar",
+		"autor": "Amir Levine y Rachel Heller",
+		"indice": 51,
+		"fasters": [
+			"Los seres humanos necesitan establecer vínculos estrechos con los demás para sentirse seguros y protegidos en la vida.",
+			"La forma en que te trataron de niño afecta a tu vida enormemente. Aprendes cómo amar, sentir y reaccionar de tus padres.",
+			"Los estilos de apego son estables la mayor parte del tiempo, pero están sujetos a cambios.",
+			"Practicar la paciencia es una lección esencial para alguien con un estilo de apego ansioso.",
+			"Los tipos de apego evasivo siempre intentan mantener a la gente a distancia, incluso en una relación seria.",
+			"Se cree que cada estilo de apego evolucionó y mejoró para aumentar las posibilidades de supervivencia de los seres humanos en determinados entornos.",
+			"Las personas con un estilo de apego seguro son más propensas que otras a perdonar a su pareja por las malas acciones. Las personas seguras, por naturaleza, se fijan menos en lo negativo y pueden desactivar las emociones molestas sin distanciar."
+		]
+	},
+	{
+		"nombre": "Ordena tu mente",
+		"autor": "S. J. Scott y Barrie Davenport",
+		"indice": 52,
+		"fasters": [
+			"Cuanto más intentas suprimir tus pensamientos, más luchan por salir a la superficie.",
+			"La única manera de controlar los muchos pensamientos que son generados por la complicada estructura de tu cerebro es despejando la mente.",
+			"La meditación fortalece tu músculo de atención.",
+			"Nuestros procesos de pensamiento son vitales para la supervivencia y para navegar por el mundo moderno.",
+			"Las distracciones rompen el ciclo de pensamientos negativos.",
+			"Para sacar el máximo partido a tus metas, deben conectarse fácilmente a las cosas que amas y disfrutas en la vida.",
+			"Si descubres que tienes problemas con ciertas relaciones en tu vida, primero necesitas mirar dentro de ti mismo.",
+			"Si quieres estar presente y mejorar las relaciones que tienes en el aqui y ahora, necesitas despejar tu mente y dejar ir pensamientos negativos.",
+			"Puedes ahorar tiempo y energía si tienes un sistema que te ayuda a almacenar y encontrar las cosas fácilmente."
+		]
+	},
+	{
+		"nombre": "Qué decir exactamente",
+		"autor": "Phil M. Jones",
+		"indice": 53,
+		"fasters": [
+			"Tu presentación puede ser inmejorable, pero lo único que conseguirás es un aplauso si no atraes a tu audiencia a nivel de subconsciente o de toma de decisiones.",
+			"El peor momento para pensar en lo que vas a decir es en el momento que lo estás diciendo.",
+			"La mentalidad de rebaño: los seres humanos se sienten atraídos de forma natural por las cosas que ven hacer a la gente de su entorno.",
+			"Una táctica importante en las ventas es hacer que los clientes potenciales sientan que les estás ayudando a un bajo precio.",
+			"Tu trabajo se completará cuando consigas que alguien imagine un futuro maravilloso con tu producto o servicio.",
+			"Para que una decisión se convierta en realidad, al menos debes imaginarte haciéndola.",
+			"Las personas compramos emocionalmente y luego utilizamos la lógica para justificar el dinero gastado."
+		]
+	},
+	{
+		"nombre": "La tercera puerta",
+		"autor": "Alex Banayan",
+		"indice": 54,
+		"fasters": [
+			"Replantéate tus objetivos, ¿son realmente lo que quieres?",
+			"Busca modelos y aprende de sus experiencias para desarrollar tus intereses.",
+			"Seguramente tendrás algún golpe de suerte, pero haz todo lo posible por prepararte para ese momento.",
+			"Al final de tu viaje te espera una recompensa, pero para llegar a ella debes sobrevivir a todas las curvas.",
+			"Cuanto más preciso seas al definir tu sueño y su valor, mejor afrontarás su realización.",
+			"La mejor cura para el nerviosismo es la acción inmediata.",
+			"Nadie puede enseñarte las lecciones más valiosas. Debes aprenderlas a partir de la experiencia.",
+			"La genialidad es lo contrario de las expectativas."
 		]
 	}
 ]
