@@ -68,16 +68,8 @@ header > div > .icons {
 	align-items: center;
 }
 
-.icons .light-mode {
-	box-shadow: inset -2px -2px 2px var(--sombra-negra),
-							inset 2px 2px 2px var(--sombra-negra);
-							border-radius: 3px;
-}
-
-.icons .dark-mode {
-	box-shadow: inset -2px -2px 2px var(--sombra-blanca),
-							inset 2px 2px 2px var(--sombra-blanca);
-							border-radius: 3px;
+.icons svg {
+	border-radius: 3px;
 }
 
 .logo {
@@ -153,7 +145,7 @@ svg:hover {
 	background: var(--blanco);
 	box-shadow: inset -2px -2px 2px var(--sombra-negra),
 							inset  2px  2px 2px var(--sombra-negra);
-	padding: 0 6px;
+	padding: 0 9px;
 	border-radius: 3px;
 }
 
@@ -163,7 +155,7 @@ svg:hover {
 	background: var(--amarillo);
 	box-shadow: inset -2px -2px 2px var(--sombra-negra),
 							inset  2px  2px 2px var(--sombra-negra);
-	padding: 3px 6px;
+	padding: 6px 9px;
 	border: none;
 	font-size: 1.2rem;
 	transition: scale .1s ease-in-out;
@@ -186,7 +178,7 @@ h2 {
 }
 
 ul {
-	list-style: none;
+	list-style: upper-roman inside;
 	padding: 6px 0 0 15px;
 }
 
@@ -196,13 +188,10 @@ li {
 	margin-bottom: 18px;
 	background: var(--blanco);
 	border-radius: 6px;
-	/*border: ;*/
 	text-shadow: 0 0 2px var(--negro);
 	transition: scale .1s ease-in-out;
 	overflow: hidden;
 	position: relative;
-	text-decoration: underline;
-	text-underline-offset: 9px;
 }
 
 
@@ -265,7 +254,7 @@ body.dark img {
 
 @media screen and (min-width: 600px) {
 	:root {
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	main {
@@ -285,7 +274,7 @@ body.dark img {
 
 @media screen and (min-width: 900px) {
 	:root {
-		font-size: 18px;
+		font-size: 24px;
 	}
 
 	main {
