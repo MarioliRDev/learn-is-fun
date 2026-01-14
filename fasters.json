@@ -1078,5 +1078,89 @@
 			"La sinergia exige que aportemos cosas diferentes y debemos valorarlo.",
 			"Tómate tiempo para reflexionar y reponer fuerzas. Evaluar tu rendimiento te ayuda a ver con claridad en qué debes trabajar."
 		]
+	},
+	{
+		"nombre": "El grano de café",
+		"autor": "Jon Gordon & Damon West",
+		"indice": 64,
+		"fasters": [
+			"Mientras estés vivo siempre tendrás una oportunidad más, pero solo tú puedes dártela.",
+			"Pedir ayuda no te hace débil. Al contrario, demuestra tu fuerza interior.",
+			"No te escondas de las emociones: cuanto más las evites, más te abrumarán.",
+			"Todo lo que parece estar fuera de tu alcanze solo requiere más tiempo.",
+			"No creamos nuestro mundo de afuera hacia adentro. Lo creamos y transformamos de adentro hacia afuera.",
+			"Diseña la vida de tus sueños en tu mente, y luego empieza a construirla, ladrillo a ladrillo.",
+			"Cada uno tiene su esfera de responsabilidad e influencia, aunque parezca insignificante.",
+			"El hecho de fracasar no significa que seas un fracasado. Es simplemente una situación que hay que superar y transformar."
+		]
+	},
+	{
+		"nombre": "El niño autónomo",
+		"autor": "William Stixrud y Ned Johnson",
+		"indice": 65,
+		"fasters": [
+			"Cuando los niños no tienen un sentido saludable de control, les resulta difícil tomar decisiones porque se sienten impotentes.",
+			"Cuando los niños perciben que tienen el control de sus vidas, cuentan con mejor apetito y salud física y una salud mental más positiva.",
+			"Intentar que tus hijos hagan cosas que tú crees que son las mejores solo arruinará su relación y los hará perder tiempo.",
+			"A algunos niños no les molestan los estímulos de estrés que los rodean, mientras que otros son bsatante sensibles a ellos.",
+			"Los niños son diferentes, y es injusto controlarlos o compararlos.",
+			"Cuando tienes que tomar decisiones sobre la vida de tus hijos, no necesitas decidir las cosas que ellos pueden decidir por sí mismos.",
+			"Los niños que meditan a menudo experimentan una reducción del estrés y de los síntomas de muchas enfermedades mentales.",
+			"Los resultados de los exámenes nunca son una verdadera representación de la brillantez.",
+			"Las escuelas deben centrase más en el desarrollo saludable del cerebro que en los resultados de los exámenes.",
+			"Es fundamental qie te esfuerces por estar más presente con tus hijos.",
+			"Cuando los niños vean que tú tampoco eres perfecto, se reducirá su autopercepción negativa.",
+			"Los padres deben estar atentos a las preferencias de sus hijos y ayudarlos a canalizar su energía hacia lo que los hace sentir mejor."
+		]
+	},
+	{
+		"nombre": "El libro del sueño",
+		"autor": "Dr. W. Chris Winter",
+		"indice": 66,
+		"fasters": [
+			"Existe una conexión entre nuestros hábitos de sueño, el cuerpo y la salud de nuestros órganos.",
+			"Cuando no se duerme, se corre el riesgo de tener mal humor o frecuentes cambios de ánimo que permiten que las emociones te controlen.",
+			"Sentirse fatigado significa que tu energía es baja y que necesitas descansar o cualquier otro estímulo para recuperar tus fuerzas.",
+			"Las mentes cansadas no planifican bien. Duerme primero, planifica después.",
+			"Si te despiertas constantemente a intervalos regulares porque estás demaciado pendiente de algo, se traducirá en un mal descanso.",
+			"El insomnio paradójico interrumpe el sueño, haciendo que los pacientes se sientan angustiados y menos productivos.",
+			"Para establecer un ritmo circadiano saludable, debes prestar atención a cuándo comes, a tu reacción a la luz o la oscuridad, cuándo hacer ejercicio, cuándo descansas, cuándo bebes y cuándo duermes.",
+			"Como adulto, debes reconocer las cosas que están dificultando tu higiene del sueño y cambiar o ajustar lo que sea necesario.",
+			"Para que tengas insomnio, debes estar realmente molesto y frustrado por la forma en que duermes.",
+			"Los medicamentos utilizados para tratar enfermedades también pueden ser responsables del insomnio.",
+			"La duración del sueño no importa mientras te sientas feliz y saludable al despertarte.",
+			"La siesta resulta útil cuando no es posible o cómodo dormir mucho tiempo.",
+			"El cerebro utiliza el 20% del oxígeno del cuerpo humano.",
+			"Sé inteligente y deja de obtener información sobre el sueño de Cosmo, de libros sobre el sueño que complican un tema sencillo y de tu vecino de al lado."
+		]
+	},
+	{
+		"nombre": "Cómo ser un adulto en las relaciones",
+		"autor": "David Richo",
+		"indice": 67,
+		"fasters": [
+			"Debemos amar y alimentar nuestro interior para crecer en cualquier entorno.",
+			"No intentes forzar el amor. Confía en que el universo te traerá a la persona indicada cuando sea el momento adecuado.",
+			"Enmascarar tu personalidad con la esperanza de ganar el amor y revelar más tarde tu verdadera identidad difícilmente funciona. Sé tú mismo. La persona adecuada te querrá por eso.",
+			"La mayoría cree que el amor es un sentimiento, pero más que un sentimiento, es una forma de estar presente.",
+			"No huyas de los conflictos si tu objetivo es construir una relación duradera.",
+			"Los miedos a la intimidad son normales en la relaciones. No dejes que te impidan pensar con claridad o expresar amor cuando debes hacerlo.",
+			"Darás amor más fácilmente cuando te niegues a dejar que el ego y los miedos se interpongan."
+		]
+	},
+	{
+		"nombre": "La vida en cinco sentidos",
+		"autor": "Gretchen Rubin",
+		"indice": 68,
+		"fasters": [
+			"El cuerpo no es solo una envoltura física para el alma. Es el receptor primario a través del cual percibimos la vida.",
+			"Lo que ves es único según tu percepción y nunca podrá reproducirse. Así que aprovecha cada momento.",
+			"El tiempo de calidad juntos implica escucharse y mirarse de verdad.",
+			"La pérdida de olfato te hace sentir aislado.",
+			"Formas vínculos especiales, confianza e intimidad compartiendo, cocinando y comiendo con tus seres queridos.",
+			"Cuanto más moldease mi mundo sensorial para reflejar mis gustos individuales, más agradable sería ese mundo.",
+			"Cuando es apropiado, el tacto desencadena la producción de hormonas de la felicidad, que son analgésicos naturales.",
+			"A veces, las palabras solo disminuyen lo que queremos transmitir."
+		]
 	}
 ]
